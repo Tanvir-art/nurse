@@ -1,0 +1,37 @@
+
+.hero{
+    background-image: url('images/banner-companion-care.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+}
+.appointment{
+    background-image:   linear-gradient(
+        rgba(75, 47, 146, 0.9), 
+        rgba(75, 47, 146, 0.9)
+      ), url('images/elderly-patient.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 600px;
+}
+.menuCss{
+    display: flex;
+    gap: 40px;
+}
+@media only screen and (max-width: 1023px) {
+    .menuCss{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        display: none;
+    }
+    .hambergur{
+        display: block;
+        margin-top: 40px;
+        padding: 10px;
+    }
+    .responsive{
+        padding: 50px 30px;
+    }
+}
